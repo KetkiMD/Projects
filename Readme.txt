@@ -1,3 +1,5 @@
+Utilizes OpenCV library for real-time license plate detection. Implements Haar Cascade classifier for accurate plate identification. Captures video from the default camera and processes each frame. 
+
 OCR: Optimal Character Recognition
 
 A Haar cascade is a machine learning-based object detection method that is used to detect specific patterns or objects in images. 
