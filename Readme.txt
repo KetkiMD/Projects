@@ -1,6 +1,5 @@
-Utilizes OpenCV library for real-time license plate detection. Implements Haar Cascade classifier for accurate plate identification. Captures video from the default camera and processes each frame. 
+Employ the OpenCV library to achieve real-time license plate detection by implementing a Haar Cascade classifier for precise plate identification. The code captures video feed from the default camera and processes every frame for the recognition of license plates.
 
-OCR: Optimal Character Recognition
+To ensure accurate identification of license plates, the code utilizes a Haar cascade XML file specified by 'harcascade,' which is specifically trained for detecting Russian license plates. This XML file comprises a set of classifiers that have undergone training to recognize distinctive features of license plates, such as edges, corners, or specific patterns. During execution, these classifiers scan each frame of the input image or video to identify and locate license plates based on the learned patterns.
 
-A Haar cascade is a machine learning-based object detection method that is used to detect specific patterns or objects in images. 
-In this code, the Haar cascade XML file specified by harcascade is trained specifically for detecting Russian license plates. The Haar cascade XML file contains a set of classifiers that are trained to recognize certain features of license plates, such as edges, corners, or specific patterns. These classifiers are then used to scan an image or video frame and detect the presence of license plates.
+Fundamentally, the Haar cascade method represents a machine learning-based object detection technique crafted for recognizing predetermined patterns or objects in images. The designated XML file serves as a guide for the algorithm to identify Russian license plates by detecting pertinent features in the visual data.
